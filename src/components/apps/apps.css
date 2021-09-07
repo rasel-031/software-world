@@ -184,9 +184,17 @@
     padding: 2px 0px;
     margin: 0;
   }
+  .apps-cart-img {
+    height: 115px;
+    width: 100%;
+  }
   .apps-cart-img > img {
     height: 115px;
     width: 120px;
+  }
+  .apps-name > h2 {
+    padding: 3px 0px;
+    margin: 0;
   }
   .apps-recommend-cart > img {
     height: 40px;

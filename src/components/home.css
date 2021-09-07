@@ -259,6 +259,10 @@
     display: grid;
     grid-template-columns: auto;
   }
+  .android-cart-img {
+    height: 22vh;
+    width: 15vw;
+  }
   .android-cart-img > img {
     height: 22vh;
     width: 15vw;
@@ -281,6 +285,18 @@
     width: 80%;
   }
   /* responsive latest windows app */
+  .windows-cart-container {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 10vw auto auto;
+    align-items: center;
+    background-color: white;
+    height: auto;
+    grid-gap: 0vh;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+  }
   .home-windows-app {
     display: grid;
     grid-template-columns: auto;
@@ -293,13 +309,14 @@
     padding: 3vh 5vw;
   }
   .windows-cart-img {
-    height: 22vh;
+    height: 115px;
     width: 100%;
     text-align: center;
   }
   .windows-cart-img > img {
     height: 115px;
     width: 120px;
+    border-radius: 10px;
   }
   .windows-cart-title > h4 {
     font-size: 14px;
@@ -310,7 +327,10 @@
     padding: 2px 0px;
   }
   .windows-cart-down-btn {
+    margin-top: 6px;
     width: 100%;
+    padding: 12px 0px;
+    font-size: 14px;
   }
   .windows-cart-title {
     display: block;
@@ -322,8 +342,13 @@
     padding: 0;
     margin: 0;
   }
+  .window-app-name {
+    padding: 0;
+  }
   .window-app-name > h2 {
     text-align: center;
+    padding: 0;
+    margin: 0;
   }
   .windows-top-down-cart {
     padding: 0vh 5vw;
@@ -343,6 +368,11 @@
     grid-template-columns: auto;
     grid-gap: 5vh;
   }
+  .android-cart-img {
+    height: 115px;
+    width: 100%;
+    text-align: center;
+  }
   .android-cart-img > img {
     height: 115px;
     width: 120px;
@@ -352,6 +382,11 @@
     width: 40px;
   }
   .android-cart-title > h4 {
+    font-size: 14px;
+  }
+  .android-cart-down-btn {
+    width: 100%;
+    padding: 12px 0px;
     font-size: 14px;
   }
 }

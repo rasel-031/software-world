@@ -51,6 +51,7 @@ function Articles() {
       <div className="articles-container">
         <div className="articles-left-container">
           <div
+            id="articles-sticky-mobile"
             className={
               inView ? "articles-sticky-false" : "articles-sticky-true"
             }
@@ -71,7 +72,7 @@ function Articles() {
               <br />
               <button
                 onClick={(event) =>
-                  (window.location.href = "https://www.youtube.com")
+                  window.open("https://www.youtube.com", "_blank")
                 }
               >
                 <FontAwesomeIcon icon={faYoutubeSquare} />

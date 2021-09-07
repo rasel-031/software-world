@@ -169,6 +169,10 @@
     grid-template-columns: auto;
     grid-gap: 3vh;
   }
+  .games-name > h2 {
+    padding: 3px 0px;
+    margin: 0;
+  }
   .games-name > h4 {
     font-size: 16px;
     padding: 2px 0px;
@@ -183,6 +187,10 @@
     font-size: 16px;
     padding: 2px 0px;
     margin: 0;
+  }
+  .games-cart-img {
+    height: 115px;
+    width: 100%;
   }
   .games-cart-img > img {
     height: 115px;

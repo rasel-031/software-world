@@ -102,7 +102,7 @@ function WindowsGame() {
             <div>
               <button
                 className="games-cart-down-btn"
-                onClick={(event) => (window.location.href = data.link)}
+                onClick={(event) => window.open(data.link, "_blank")}
               >
                 Free Download&nbsp;&nbsp;|&nbsp;&nbsp;
                 <FontAwesomeIcon icon={faDownload} />

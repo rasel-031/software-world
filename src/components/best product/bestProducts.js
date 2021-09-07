@@ -44,7 +44,6 @@ function BestProduct() {
       <div className="about">
         <About />
       </div>
-      <br />
     </div>
   );
 }

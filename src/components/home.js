@@ -180,7 +180,7 @@ function Home() {
               <div>
                 <button
                   className="windows-cart-down-btn"
-                  onClick={(event) => (window.location.href = data.link)}
+                  onClick={(event) => window.open(data.link, "_blank")}
                 >
                   Free Download&nbsp;&nbsp;|&nbsp;&nbsp;
                   <FontAwesomeIcon icon={faDownload} />
@@ -248,7 +248,7 @@ function Home() {
               <div>
                 <button
                   className="android-cart-down-btn"
-                  onClick={(event) => (window.location.href = data.link)}
+                  onClick={(event) => window.open(data.link, "_blank")}
                 >
                   Free Download&nbsp;&nbsp;|&nbsp;&nbsp;
                   <FontAwesomeIcon icon={faDownload} />

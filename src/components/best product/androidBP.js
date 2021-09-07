@@ -44,7 +44,7 @@ function AndroidBP() {
             </div>
           </div>
           <div className="BP-cart-down-btn">
-            <button onClick={(event) => (window.location.href = data.link)}>
+            <button onClick={(event) => window.open(data.link, "_blank")}>
               Download Now
             </button>
           </div>
