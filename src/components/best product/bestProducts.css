@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+
+.best-products {
+  margin: 3vh 5.5vw 0 5.5vw;
+  padding: 2vh 0vw;
+  height: 150vh;
+  font-family: "Nunito Sans", sans-serif;
+}
+.best-products-navbar {
+  background-color: whitesmoke;
+  padding: 4vh;
+  margin: 4vh 0vw;
+}
+.best-products-navbar > h3 {
+  margin: 0;
+  padding: 0;
+}
+.best-products-navbar > p {
+  margin: 0;
+  padding: 0;
+  color: crimson;
+}
+.best-products-container {
+  background-color: whitesmoke;
+  padding: 4vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2vw;
+}
+.best-windows-product {
+  background-color: rgb(168, 241, 157);
+}
+.best-windows-product > h3 {
+  padding: 10px 0px;
+  margin: 0;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+}
+.best-android-product {
+  background-color: rgb(168, 241, 157);
+}
+.best-android-product > h3 {
+  padding: 10px 0px;
+  margin: 0;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+}
+.best-windows-product-cart {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1vw;
+}
+/* best product cart*/
+.BP-cart-container {
+  background-color: white;
+  padding: 8px;
+}
+.BP-cart-img {
+  height: 25vh;
+  width: 100%;
+}
+.BP-cart-img > img {
+  height: 25vh;
+  width: 100%;
+}
+.BP-cart-img-icon {
+  height: 55px;
+  width: 55px;
+}
+.BP-cart-img-icon > img {
+  height: 55px;
+  width: 55px;
+}
+.BP-cart2 {
+  display: grid;
+  grid-template-columns: 55px 1fr;
+  grid-gap: 10px;
+  align-items: center;
+  padding: 6px 0px;
+}
+.BP-cart-title > h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+.BP-cart-title > p {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+.BP-cart-title > span {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: crimson;
+}
+.BP-cart-down-btn {
+  padding: 0px;
+}
+.BP-cart-down-btn > button {
+  width: 100%;
+  padding: 12px 0px;
+  font-family: "Nunito Sans", sans-serif;
+  border: none;
+  font-size: 15px;
+  background-color: yellowgreen;
+  cursor: pointer;
+}
+.BP-cart-down-btn > button:hover {
+  background-color: rgb(39, 133, 35);
+  color: white;
+}
+.best-android-product-cart {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1vw;
+}
+/* responsive */
+@media screen and (max-width: 768px) {
+  .best-windows-product-cart {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 2vh;
+  }
+  .best-android-product-cart {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 2vh;
+  }
+}
+@media screen and (max-width: 425px) {
+  .best-products-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 2vh;
+  }
+}
